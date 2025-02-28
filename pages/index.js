@@ -5,7 +5,7 @@ import { Modale } from "../components/modale";
 
 function index() {
   return (
-    <div className="h-[120vh] w-[120vw]">
+    <div style={{ height: '80vh', width: '80vw', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Canvas>
         <Environment preset="sunset" />
         <OrbitControls />
